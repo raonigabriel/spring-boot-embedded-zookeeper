@@ -54,6 +54,7 @@ public class EmbeddedZooKeeperConfig implements ImportAware {
 
 			ZooKeeperServer server = new ZooKeeperServer(zooPath.toFile(), zooPath.toFile(), tickTime);
 			ServerCnxnFactory factory = new NIOServerCnxnFactory();
+			System.setProperty("zookeeper.maxCnxns", Integer.toString(maxConnections));
 			factory.configure(new InetSocketAddress(port), maxConnections);
 			factory.startup(server);
 			return server;
