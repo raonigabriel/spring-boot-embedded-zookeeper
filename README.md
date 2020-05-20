@@ -1,10 +1,11 @@
 ![](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/workflows/Maven%20Build/badge.svg)
-
+[![Coverage Status](https://coveralls.io/repos/github/raonigabriel/spring-boot-embedded-zookeeper/badge.svg?branch=master)](https://coveralls.io/github/raonigabriel/spring-boot-embedded-zookeeper?branch=master)
 Spring Boot Embedded Zookeeper
 -------------------
 A small utility library that easily enables an embedded ZooKeeper server on SpringBoot apps.
 
-## Maven import **(NOT WORKING YET!!) 
+### Using with Maven **(NOT WORKING YET!!) 
+Add the following dependency to your pom.xml:
 ```xml
 <dependency>
 	<groupId>com.github.raonigabriel</groupId>
