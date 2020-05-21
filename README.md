@@ -31,7 +31,22 @@ public class MyApp {
 } 
 
 ```
+Then you can inject the ZooKeeperServer bean on any Spring component, as following:
+```java
+package com.myco.myapp;
 
+@Component
+public class MyComponent {
+
+	@Autowired
+	ZooKeeperServer zookeeperServer;
+	
+	public void doSomething() {
+		// Use the injected zookeeperServer
+	}
+
+}
+```
 To get the code:
 -------------------
 Clone the repository:
