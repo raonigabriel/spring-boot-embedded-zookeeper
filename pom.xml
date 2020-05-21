@@ -207,4 +207,12 @@
 		</pluginManagement>
 	</build>
 
+	<distributionManagement>
+		<repository>
+			<id>bintray-raonigabriel-maven</id>
+			<name>raonigabriel-maven</name>
+			<url>https://api.bintray.com/maven/raonigabriel/maven/spring-boot-embedded-zookeeper/;publish=1</url>
+		</repository>
+	</distributionManagement>
+
 </project>
