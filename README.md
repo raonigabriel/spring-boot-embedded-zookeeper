@@ -1,6 +1,6 @@
-![maven](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/workflows/Maven%20Build/badge.svg)
-[![codecov](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper/branch/master/graph/badge.svg)](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper)
-![libraries](https://img.shields.io/librariesio/github/raonigabriel/spring-boot-embedded-zookeeper)
+[![Build Status](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/workflows/Maven%20Build/badge.svg?branch=master)](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/actions)
+[![Codecov](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper/branch/master/graph/badge.svg)](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper)
+[![Libraries](https://img.shields.io/librariesio/github/raonigabriel/spring-boot-embedded-zookeeper)](https://libraries.io/github/raonigabriel/spring-boot-embedded-zookeeper)
 
 Spring Boot Embedded Zookeeper
 -------------------
