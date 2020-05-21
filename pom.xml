@@ -48,7 +48,7 @@
 		<zookeeper.version>3.6.1</zookeeper.version>
 		<snappy.version>1.1.7.5</snappy.version>
 		<jacoco.version>0.8.5</jacoco.version>
-		<findbugs.version>3.0.1</findbugs.version>
+		<findbugs.version>3.0.2</findbugs.version>
 	</properties>
 
 	<dependencies>
