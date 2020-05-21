@@ -6,7 +6,7 @@ Spring Boot Embedded Zookeeper
 -------------------
 A small utility library that easily enables an embedded ZooKeeper server on SpringBoot apps.
 
-### Using with Maven **(NOT WORKING YET!!) 
+### Using with Maven
 Add the following dependency to your pom.xml:
 ```xml
 <dependency>
@@ -14,6 +14,19 @@ Add the following dependency to your pom.xml:
 	<artifactId>spring-boot-embedded-zookeeper</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 </dependency>
+```
+### **Note: This library is not on MavenCentral (yet). But you can use it from Bintray repo, as follows:
+```xml
+<repositories>
+        <repository>
+          <id>bintray-raonigabriel-maven</id>
+          <name>bintray</name>
+          <url>https://dl.bintray.com/raonigabriel/maven</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+</repositories> 
 ```
 
 ## Usage
