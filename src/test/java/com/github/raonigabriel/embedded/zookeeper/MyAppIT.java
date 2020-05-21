@@ -12,7 +12,7 @@ import org.springframework.boot.test.system.OutputCaptureExtension;
 
 @SpringBootTest
 @ExtendWith(OutputCaptureExtension.class)
-public class MyAppTests {
+public class MyAppIT {
 
 	@Autowired
 	ZooKeeperServer zooKeeperServer;
