@@ -1,6 +1,7 @@
 ![](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/workflows/Maven%20Build/badge.svg)
 [![codecov](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper/branch/master/graph/badge.svg)](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper)
-
+[![libraries](https://img.shields.io/librariesio/github/raonigabriel/spring-boot-embedded-zookeeper)]
+(https://libraries.io/github/raonigabriel/spring-boot-embedded-zookeeper)
 Spring Boot Embedded Zookeeper
 -------------------
 A small utility library that easily enables an embedded ZooKeeper server on SpringBoot apps.
