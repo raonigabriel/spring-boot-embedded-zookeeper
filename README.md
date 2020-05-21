@@ -12,7 +12,7 @@ Add the following dependency to your pom.xml:
 <dependency>
 	<groupId>com.github.raonigabriel</groupId>
 	<artifactId>spring-boot-embedded-zookeeper</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 </dependency>
 ```
 ### **Note: This library is not on MavenCentral (yet). But you can use it from Bintray repo, as follows:
