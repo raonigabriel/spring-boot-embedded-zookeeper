@@ -3,8 +3,7 @@ package com.github.raonigabriel.embedded.zookeeper;
 import java.net.InetSocketAddress;
 import java.nio.file.Files;
 import java.nio.file.Path;
-
-import java.net.InetSocketAddress;
+import java.nio.file.Paths;
 
 import org.apache.zookeeper.server.NIOServerCnxnFactory;
 import org.apache.zookeeper.server.ServerCnxnFactory;
