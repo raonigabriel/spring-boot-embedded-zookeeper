@@ -50,7 +50,7 @@ public class EmbeddedZooKeeperConfig implements ImportAware {
 			int tickTime = enableEmbeddedZooKeeper.getNumber("tickTime");
 			Path zooPath = null;
 
-			if (StringUtils.hasLength(zooDir)) {
+			if (!StringUtils.hasLength(zooDir)) {
 				zooPath = Files.createTempDirectory("zookeeper");
 				zooPath.toFile().deleteOnExit();
 			} else {
