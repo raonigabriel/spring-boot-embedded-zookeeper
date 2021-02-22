@@ -1,4 +1,4 @@
-package com.github.raonigabriel.embedded.zookeeper;
+package io.github.raonigabriel.embedded.zookeeper;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.BeanInstantiationException;
 import org.springframework.core.type.AnnotationMetadata;
 
-import com.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
+import io.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
 
 public class EmbeddedZooKeeperConfigTests {
 

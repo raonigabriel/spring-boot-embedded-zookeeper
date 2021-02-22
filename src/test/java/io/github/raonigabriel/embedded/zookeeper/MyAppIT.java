@@ -1,4 +1,4 @@
-package com.github.raonigabriel.embedded.zookeeper;
+package io.github.raonigabriel.embedded.zookeeper;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

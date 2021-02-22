@@ -1,4 +1,4 @@
-package com.github.raonigabriel.embedded.zookeeper.annotation;
+package io.github.raonigabriel.embedded.zookeeper.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -10,7 +10,7 @@ import org.apache.zookeeper.server.ZooKeeperServer;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import com.github.raonigabriel.embedded.zookeeper.EmbeddedZooKeeperConfig;
+import io.github.raonigabriel.embedded.zookeeper.EmbeddedZooKeeperConfig;
 
 /**
  * Enables an embedded Zookeper server instance that will run with the defaults.

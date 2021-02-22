@@ -1,4 +1,4 @@
-package com.github.raonigabriel.embedded.zookeeper;
+package io.github.raonigabriel.embedded.zookeeper;
 
 import java.net.InetSocketAddress;
 import java.nio.file.Files;
@@ -20,7 +20,7 @@ import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.lang.Nullable;
 import org.springframework.util.StringUtils;
 
-import com.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
+import io.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
 
 /**
  * {@code @Configuration} class that registers the Spring infrastructure bean necessary
@@ -50,7 +50,7 @@ public class EmbeddedZooKeeperConfig implements ImportAware {
 			int tickTime = enableEmbeddedZooKeeper.getNumber("tickTime");
 			Path zooPath = null;
 
-			if (StringUtils.isEmpty(zooDir)) {
+			if (StringUtils.hasLength(zooDir)) {
 				zooPath = Files.createTempDirectory("zookeeper");
 				zooPath.toFile().deleteOnExit();
 			} else {

@@ -1,9 +1,9 @@
-package com.github.raonigabriel.embedded.zookeeper;
+package io.github.raonigabriel.embedded.zookeeper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
+import io.github.raonigabriel.embedded.zookeeper.annotation.EnableEmbeddedZooKeeper;
 
 @EnableEmbeddedZooKeeper
 @SpringBootApplication
