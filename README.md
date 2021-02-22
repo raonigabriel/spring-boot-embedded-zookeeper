@@ -1,13 +1,13 @@
 [![Build Status](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/workflows/Maven%20Build/badge.svg?branch=master)](https://github.com/raonigabriel/spring-boot-embedded-zookeeper/actions)
 [![Codecov](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper/branch/master/graph/badge.svg)](https://codecov.io/gh/raonigabriel/spring-boot-embedded-zookeeper)
 [![Libraries](https://img.shields.io/librariesio/github/raonigabriel/spring-boot-embedded-zookeeper)](https://libraries.io/github/raonigabriel/spring-boot-embedded-zookeeper)
-              https://img.shields.io/librariesio/github/raonigabriel/spring-boot-embedded-zookeeper
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.raonigabriel/spring-boot-embedded-zookeeper)](https://search.maven.org/artifact/io.github.raonigabriel/spring-boot-embedded-zookeeper)
 
 Spring Boot Embedded Zookeeper
 -------------------
 A small utility library that easily enables an embedded ZooKeeper server on SpringBoot apps.
 
-### Using with Maven
+### This library is published to Maven Central, hence:
 Add the following dependency to your pom.xml:
 ```xml
 <dependency>
@@ -18,7 +18,7 @@ Add the following dependency to your pom.xml:
 ```
 
 ## Usage
-Just add @EnableEmbeddedZooKeeper to any @Configuration class as follows:
+Just add **@EnableEmbeddedZooKeeper** to any **@Configuration** or **@SpringBootApplication** class as follows:
 ```java
 package com.myco.myapp;
 
