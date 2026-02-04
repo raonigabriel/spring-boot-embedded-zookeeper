@@ -47,7 +47,7 @@
 
 	<properties>
 		<zookeeper.version>3.7.2</zookeeper.version>
-		<snappy.version>1.1.10.1</snappy.version>
+		<snappy.version>1.1.10.4</snappy.version>
 		<jacoco.version>0.8.7</jacoco.version>
 		<findbugs.version>3.0.2</findbugs.version>
 	</properties>
